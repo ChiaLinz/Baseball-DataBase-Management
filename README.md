@@ -46,7 +46,7 @@ Furthermore, one should know how to calculate the Earned Run Average (ERA) and B
 
 --------------
 
-## 03. Create [View](https://github.com/ChiaLinz/Baseball-DataBase-Management/blob/e0469940be11461536ab8378385bca809f7dce35/04.%20Revised%20View/04.%20Revised%20View.pdf) &nbsp;&nbsp;|&nbsp;&nbsp;[Function](https://github.com/ChiaLinz/Baseball-DataBase-Management/blob/e0469940be11461536ab8378385bca809f7dce35/05.%20Create%20Function/05.%20Create%20Function.pdf)&nbsp;&nbsp;|&nbsp;&nbsp;[Trigger](https://github.com/ChiaLinz/Baseball-DataBase-Management/blob/e0469940be11461536ab8378385bca809f7dce35/08.%20Create%20Trigger/08.%20Create%20Trigger.pdf)
+## 03. Create &nbsp;[View](https://github.com/ChiaLinz/Baseball-DataBase-Management/blob/e0469940be11461536ab8378385bca809f7dce35/04.%20Revised%20View/04.%20Revised%20View.pdf) &nbsp;&nbsp;|&nbsp;&nbsp;[Function](https://github.com/ChiaLinz/Baseball-DataBase-Management/blob/e0469940be11461536ab8378385bca809f7dce35/05.%20Create%20Function/05.%20Create%20Function.pdf)&nbsp;&nbsp;|&nbsp;&nbsp;[Trigger](https://github.com/ChiaLinz/Baseball-DataBase-Management/blob/e0469940be11461536ab8378385bca809f7dce35/08.%20Create%20Trigger/08.%20Create%20Trigger.pdf)
 
 In this section involves creating a view, a function, and a trigger in SQL. The view, named NJITID_Player_History, is created using SQL queries that retrieve data from multiple tables, perform calculations, and group and filter data as needed. The function is created using SQL code to perform a specific task and can be called from SQL queries. The trigger is created using SQL DDL statements to automatically update specific columns in the PEOPLE table whenever a row is inserted, updated or deleted from the FIELDING table. It uses basic math functions and the INSERTED and DELETED tables to update the columns.
 
@@ -66,7 +66,7 @@ This section is related to transaction processing and cursor processing in a dat
 
 ## 06. [Extra Project](https://github.com/ChiaLinz/Baseball-DataBase-Management/blob/e0469940be11461536ab8378385bca809f7dce35/10.%20Extra%20Project/10.%20Extra%20Project.pdf)
 
-As the dataset is quite large, it exceeds the size limit for uploading to GitHub. Therefore, to access the necessary files such as Temperature.txt, GunCrimes.csv, and AQS_Sites.txt, please download them from the[ Google Drive link](https://drive.google.com/file/d/1gWc3XuDgcVZEDx-AQeJ98DFY-Anm3KuD/view?usp=sharing). Once downloaded, the data should be loaded into a SQL Server for further manipulation as required for the project.
+As the dataset is quite large, it exceeds the size limit for uploading to GitHub. Therefore, to access the necessary files such as Temperature.txt, GunCrimes.csv, and AQS_Sites.txt, please download them from the [Google Drive link](https://drive.google.com/file/d/1gWc3XuDgcVZEDx-AQeJ98DFY-Anm3KuD/view?usp=sharing). Once downloaded, the data should be loaded into a SQL Server for further manipulation as required for the project.
 
 
 This extra project consists of three sections that use different technologies:
@@ -76,3 +76,11 @@ This extra project consists of three sections that use different technologies:
 &nbsp;&nbsp; The second section involves using **geospatial data** and stored procedures in SQL. This section also involves creating a front-end interface to display the data.
 
 &nbsp;&nbsp; The third section involves using **GunCrime dataset** to create and populate a geography column and rank by shooting events. This section involves importing data into the database, updating stored procedures, and creating Cartesian products to filter data.
+
+--------------
+
+## End of the article
+
+Thank you for reading my article on Enterprise Database Management. If you want to improve your SQL manipulation skills or learn more about the Baseball-related database used in this project, you can access all the questions and answers in separate folders on my GitHub repository at https://github.com/ChiaLinz/Baseball-DataBase-Management.
+
+I have also shared other interesting projects on [my GitHub repository](https://github.com/ChiaLinz) and [my personal website](https://jeffrey-hsieh-portfolio.vercel.app/). Please feel free to visit and contact me for any questions or feedback. Thank you again for your time, and I hope this resource will be helpful in your journey to master enterprise database management.
